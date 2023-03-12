@@ -6,9 +6,9 @@ import NoteListItem from '../components/NoteListItem.astro';
 import Section from '../components/Section.astro';
 import { postsAndTags } from '../data/posts';
 
-let title = `All Notes | Rach Smith's digital garden`;
-let description = 'See all of my notes in my digital garden.';
-let permalink = 'https://rachsmith.com/all-notes/';
+let title = `All Notes | My name is Olek`;
+let description = 'See all of my notes.';
+let permalink = 'https://olek.works/all-notes/';
 
 let posts = await Astro.glob(`../notes/*.md`);
 const { allPosts, allTags } = await postsAndTags(posts);
